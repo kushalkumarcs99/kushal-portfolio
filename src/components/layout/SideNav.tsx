@@ -49,42 +49,43 @@ const SideNav = () => {
 
     // Mobile bottom navigation
     const MobileNav = () => (
-        <nav className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm shadow-lg border-t border-gray-200 dark:border-gray-700">
-            <div className="flex justify-around items-center p-2">
+        <nav className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 lg:hidden">
+            <div className="flex gap-2 bg-white/90 dark:bg-gray-800/90 p-2 rounded-full shadow-lg backdrop-blur-sm border border-gray-200 dark:border-gray-700">
                 <button
                     onClick={() => scrollToSection('about')}
-                    className={`p-2 flex flex-col items-center ${activeSection === 'about' ? 'text-blue-500' : 'text-gray-600 dark:text-gray-300'}`}
+                    className={`p-2 rounded-full transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 ${activeSection === 'about' ? 'text-blue-500 bg-gray-100 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-300'}`}
                 >
                     <FaUser size={20} />
-                    <span className="text-xs mt-1">About</span>
                 </button>
                 <button
                     onClick={() => scrollToSection('experience')}
-                    className={`p-2 flex flex-col items-center ${activeSection === 'experience' ? 'text-blue-500' : 'text-gray-600 dark:text-gray-300'}`}
+                    className={`p-2 rounded-full transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 ${activeSection === 'experience' ? 'text-blue-500 bg-gray-100 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-300'}`}
                 >
                     <FaBriefcase size={20} />
-                    <span className="text-xs mt-1">Experience</span>
                 </button>
                 <button
                     onClick={() => scrollToSection('projects')}
-                    className={`p-2 flex flex-col items-center ${activeSection === 'projects' ? 'text-blue-500' : 'text-gray-600 dark:text-gray-300'}`}
+                    className={`p-2 rounded-full transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 ${activeSection === 'projects' ? 'text-blue-500 bg-gray-100 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-300'}`}
                 >
                     <FaCode size={20} />
-                    <span className="text-xs mt-1">Projects</span>
                 </button>
                 <button
                     onClick={() => scrollToSection('skills')}
-                    className={`p-2 flex flex-col items-center ${activeSection === 'skills' ? 'text-blue-500' : 'text-gray-600 dark:text-gray-300'}`}
+                    className={`p-2 rounded-full transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 ${activeSection === 'skills' ? 'text-blue-500 bg-gray-100 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-300'}`}
                 >
                     <FaCogs size={20} />
-                    <span className="text-xs mt-1">Skills</span>
                 </button>
                 <button
                     onClick={() => scrollToSection('activity')}
-                    className={`p-2 flex flex-col items-center ${activeSection === 'activity' ? 'text-blue-500' : 'text-gray-600 dark:text-gray-300'}`}
+                    className={`p-2 rounded-full transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 ${activeSection === 'activity' ? 'text-blue-500 bg-gray-100 dark:bg-gray-700' : 'text-gray-600 dark:text-gray-300'}`}
                 >
                     <FaChartLine size={20} />
-                    <span className="text-xs mt-1">Activity</span>
+                </button>
+                <button
+                    onClick={downloadResume}
+                    className="p-2 rounded-full transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-300"
+                >
+                    <FaFileDownload size={20} />
                 </button>
             </div>
         </nav>
