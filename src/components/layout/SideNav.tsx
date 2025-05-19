@@ -50,7 +50,7 @@ const SideNav = () => {
     if (!isVisible) return null;
 
     return (
-        <nav className="fixed left-8 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block">
+        <nav className="fixed left-0 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block ml-4">
             <div className="flex flex-col gap-6 bg-white/90 dark:bg-gray-800/90 p-3 rounded-full shadow-lg backdrop-blur-sm">
                 <div className="relative group">
                     <button
