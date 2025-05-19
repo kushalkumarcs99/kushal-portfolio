@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import SaintsmenSystems from './../../assets/Saintsmen-Systems.svg';
 import SyntaxSpace from './../../assets/SyntaxSpace-IDE.svg';
+import StayTuned from './../../assets/stay-stuned.svg';
 
 const Projects = () => {
     const projects = [
@@ -23,7 +24,7 @@ const Projects = () => {
         {
             title: 'More Projects Coming Soon',
             description: 'I am currently working on several exciting experimental projects. Stay tuned for updates as I continue to push the boundaries of web development and create innovative solutions.',
-            image: SyntaxSpace, // Reusing the SyntaxSpace image as a placeholder
+            image: StayTuned, // Reusing the SyntaxSpace image as a placeholder
             tags: ['Coming Soon', 'Experimental', 'Innovation'],
         },
     ];
