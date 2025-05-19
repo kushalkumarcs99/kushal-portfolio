@@ -17,8 +17,14 @@ const Projects = () => {
             description: 'SyntaxSpace is a modern, web-based IDE for writing, running, and testing code in languages like C++, Java, JavaScript, Python, and C#. Built with ReactJS and Monaco Editor, it offers a sleek, customizable UI with theme and font size options. It supports real-time code execution, custom test cases, and displays output and errors clearly. With its responsive, VS Code-like design, SyntaxSpace provides a smooth coding experience across devices. Making a great tool for developers looking for a clean and efficient coding environment.',
             image: SyntaxSpace,
             tags: ['React', 'Node.js', 'GraphQL', 'PostgreSQL'],
-            github: 'https://github.com/yourusername/task-manager',
-            demo: 'https://task-manager-demo.vercel.app',
+            github: 'https://github.com/kushalkumarcs99/Syntax-Space',
+            demo: 'https://syntax-space.vercel.app/',
+        },
+        {
+            title: 'More Projects Coming Soon',
+            description: 'I am currently working on several exciting experimental projects. Stay tuned for updates as I continue to push the boundaries of web development and create innovative solutions.',
+            image: SyntaxSpace, // Reusing the SyntaxSpace image as a placeholder
+            tags: ['Coming Soon', 'Experimental', 'Innovation'],
         },
     ];
 
