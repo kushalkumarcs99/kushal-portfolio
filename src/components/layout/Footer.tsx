@@ -17,7 +17,7 @@ const Footer = () => {
                         <a href="https://instagram.com/your-profile" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
                             <FaInstagram size={20} />
                         </a>
-                        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
+                        <a href="https://github.com/kushalkumarcs99" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
                             <FaGithub size={20} />
                         </a>
                     </div>
