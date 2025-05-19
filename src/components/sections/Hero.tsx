@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
     FaReact,
-    FaAws,
     FaGitAlt,
     FaGithub,
     FaJira,
-    FaNpm,
     FaFigma,
     FaJs,
-    FaDatabase,
     FaTable,
     FaChartBar
 } from 'react-icons/fa';
