@@ -96,7 +96,7 @@ const Hero = () => {
                             transition={{ duration: 0.5, delay: 0.2 }}
                             className="text-2xl md:text-3xl font-medium text-gray-600 dark:text-gray-300 mb-8"
                         >
-                            Software Engineer - Frontend
+                            Software Engineer - FullStack
                         </motion.h2>
 
                         <motion.p
