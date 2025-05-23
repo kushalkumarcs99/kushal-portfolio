@@ -40,8 +40,8 @@ const SideNav = () => {
 
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = 'resume/KushalKumar_KA_FrontEnd_UI.pdf';
-        link.download = 'KushalKumar_KA_Software_Engineer_FrontEnd.pdf';
+        link.href = 'resume/KushalKumar_KA_Software_Engineer--FrontEnd.pdf';
+        link.download = 'KushalKumar_KA_Software_Engineer-FrontEnd.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
