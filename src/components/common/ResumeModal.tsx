@@ -15,8 +15,8 @@ const SectionTitle: React.FC<{ children: React.ReactNode }> = ({ children }) => 
 const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = 'resume/KushalKumar_KA_FrontEnd_UI.pdf'; // because it's now in public/
-        link.download = 'KushalKumar_KA_Software_Engineer_FrontEnd.pdf'; // name you want when user downloads
+        link.href = 'resume/KushalKumar_KA_Software_Engineer--FrontEnd.pdf'; // because it's now in public/
+        link.download = 'KushalKumar_KA_Software_Engineer--FrontEnd.pdf'; // name you want when user downloads
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
